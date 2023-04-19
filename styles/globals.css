@@ -1,7 +1,7 @@
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+  --font-mono: 'Edu VIC WA NT Beginner', cursive, ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
@@ -85,6 +85,9 @@
   background: linear-gradient(-45deg, #766153, #ddae7e, #DDA15E, #2a1b11);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
+  font-family: 'Edu VIC WA NT Beginner', cursive, ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+  'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+  'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 	
 }
 
