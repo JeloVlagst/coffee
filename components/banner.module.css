@@ -22,7 +22,7 @@
   
   .titleSpan {
     display: block;
-    color: var(--text-purple);
+    color: var(--text-brown);
   }
   
   .subTitle {
@@ -44,6 +44,7 @@
     outline: 0;
     border: 0px;
   
+    margin-top: 2rem;
     padding-top: 1rem /* 16px */;
     padding-bottom: 1rem /* 16px */;
     font-size: 1.125rem /* 18px */;
@@ -79,7 +80,6 @@
     }
   
     .buttonWrapper {
-      display: flex;
       margin-top: 2rem;
     }
   }
@@ -126,7 +126,7 @@
     }
   
     .buttonWrapper {
-      justify-content: flex-start;
+      /* justify-content: flex-start; */
     }
   }
   

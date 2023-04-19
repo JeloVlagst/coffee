@@ -19,7 +19,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <Banner buttonText="Visit stores nearby" handleOnClick={handleOnBannerBtnClick } />
+        <div className={styles.heroBanner}>
+          <Banner buttonText="Visit stores nearby" handleOnClick={handleOnBannerBtnClick}  />
+          <Image
+            src="/static/coffee-cup.png"
+            alt='a coffee cup'
+            width={400}
+            height={400}
+            className= {styles.heroImage}
+          />
+        </div>
       </main>
     </>
   )
